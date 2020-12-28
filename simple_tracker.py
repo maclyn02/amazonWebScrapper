@@ -13,13 +13,29 @@ from amazon_config import (
 from selenium.webdriver.common.keys import Keys
 import time
 import pandas
+import json
+from datetime import datetime
 
 
 class GenerateReport:
     def __init__(self, results_dict):
         formatted_results = pandas.DataFrame(
             results_dict, columns=['product id', 'product name', 'product price'])
-        formatted_results.to_csv('product_results.csv', sep=',', index=False, encoding='utf-8')
+        formatted_results.to_csv(
+            'product_results.csv', sep=',', index=False, encoding='utf-8')
+
+        self.date = datetime.now()
+
+        report = {
+            'search term': NAME,
+            'filters': FILTERS,
+            'currency': CURRENCY,
+            'data': results_dict
+        }
+        print('Creating report...')
+        with open('json_report.json', 'w') as f:
+            json.dump(report, f)
+        print('DONE')
 
 
 class AmazonAPI:

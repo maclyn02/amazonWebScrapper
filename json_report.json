@@ -1,0 +1,40 @@
+{
+    "search term": "PS4",
+    "filters": {
+        "min": "200",
+        "max": "600"
+    },
+    "currency": "\u00a3",
+    "data": {
+        "product id": [
+            "B01GVQVQH2",
+            "B014GXQ3JS",
+            "B07MLWLYCN",
+            "B07TDKSC6F",
+            "B00H5JQY9A",
+            "B07WGW88NS",
+            "B07YM1Q9S4",
+            "B07YM1VZLR"
+        ],
+        "product name": [
+            "Sony PlayStation 4 500GB Console - Black",
+            "Logitech 981-000605 G633 Gaming Headset, Artemis Spectrum Pro Wired, 7.1 Dolby Surround Sound for PC, Xbox One and PS4, Fully Customisable, Noise Cancelling Microphone, Lightsync RGB, Black",
+            "Sony PlayStation 4 Pro 1TB White (PS4)",
+            "PS4 500GB with 3 PS Hits Game Bundle (PS4) (Exclusive to Amazon.co.uk)",
+            "Sony PlayStation 4 Console, Renewed, Black",
+            "eSwap Pro Controller: the versatile, wired professional controller for PS4 and PC (PS4)",
+            "Call Of Duty: Modern Warfare PS4 500GB Bundle (PS4)",
+            "Call Of Duty: Modern Warfare PS4 Pro Bundle (PS4)"
+        ],
+        "product price": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "\u00a3137.99",
+            "\u00a3389.49",
+            "N/A"
+        ]
+    }
+}
